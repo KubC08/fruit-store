@@ -182,6 +182,7 @@ This requires the user to be logged in and an admin!
 | `description`     | `string`   | **Required**. The description of the item          |
 | `availableCount`  | `number`   | **Required**. The available quantity of this item  |
 | `tags`            | `string[]` | **Required**. The tags for the item                |
+| `price`           | `number`   | **Required**. The price of the item                |
 
 #### Get item by id
 
@@ -226,6 +227,7 @@ Body parameters:
 | `description`     | `string`   | The description of the item          |
 | `availableCount`  | `number`   | The available quantity of this item  |
 | `tags`            | `string[]` | The tags for the item                |
+| `price`           | `number`   | The price of the item                |
 
 #### Remove a specific item
 This requires the user to be logged in and an admin!
